@@ -1,5 +1,6 @@
 # Steps to configure java with gradle using github actions for continous integration and deployment (CI/CD):
 
+Do after setting up gradle for prject, see README.md on how to do this. 
   1. On GitHub, navigate to the main page of the repository.
   2. Under your repository name, click  Actions.
   3. The "Choose a workflow" page shows a selection of recommended workflow templates. Search for "Java with Gradle".
