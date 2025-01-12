@@ -1,4 +1,4 @@
-# Gradle-Tutorial
+# File Definitions and what to exclude in .gitignore
 
 Run the command `gradle wrapper` to automatically install the gradle/wrapper files and gradlew and gradlew.bat files. 
 
