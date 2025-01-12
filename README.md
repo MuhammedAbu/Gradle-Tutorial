@@ -1,6 +1,3 @@
-Here’s a concise, beginner-friendly tutorial on Gradle, styled for a GitHub README file:
-
-```markdown
 # 🚀 Gradle Tutorial for Beginners
 
 Welcome to this **Gradle tutorial**! If you're new to Gradle, this guide will help you understand and set up Gradle for your projects. Gradle is a powerful build automation tool that can handle everything from compiling code to packaging and deploying your application.
