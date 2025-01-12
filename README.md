@@ -2,7 +2,6 @@
 
 Run the command `gradle wrapper` to automatically install the gradle/wrapper files and gradlew and gradlew.bat files. 
 
-
 When configuring Gradle for a project and preparing to add it to a repository, you'll want to include all necessary files that define the build configuration, dependencies, and settings. Here's a list of files and directories you should include in your repository:
 
 ### Essential Gradle Files
@@ -67,3 +66,6 @@ Thumbs.db
 ```
 
 By including the above essential files and directories, you ensure that your Gradle setup is portable and can be used by anyone cloning your repository.
+
+
+You can create a continuous integration (CI) workflow in GitHub Actions to build and test your Java project with Gradle. [Building and testing Java with Gradle](https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-java-with-gradle)
