@@ -5,12 +5,15 @@
   3. The "Choose a workflow" page shows a selection of recommended workflow templates. Search for "Java with Gradle".
   4. On the "Java with Gradle" workflow, click Configure. This workflow performs the following steps:
   5. Checks out a copy of project's repository.
-  6. Sets up the Java JDK.
-  7. Sets up the Gradle environment. The gradle/actions/setup-gradle action takes care of caching state between workflow runs, and provides a detailed summary of all Gradle executions.
-  8. The "Build with Gradle" step executes the build task using the Gradle Wrapper.
-  9. Edit the workflow as required. For example, change the Java version.
-  10. Click Commit changes.
-  11. The gradle.yml workflow file is added to the .github/workflows directory of your repository.
+     - Sets up the Java JDK.
+     - Sets up the Gradle environment. The gradle/actions/setup-gradle action takes care of caching state between workflow runs, and provides a detailed summary of all Gradle executions.
+     - The "Build with Gradle" step executes the build task using the Gradle Wrapper.
+  6. Edit the workflow as required. For example, change the Java version.
+  7. Click Commit changes.
+  8. The gradle.yml workflow file is added to the .github/workflows directory of your repository.
+  9. This workflow does two jobs: 1. build 2. dependency-submission
+  10. Cache project dependencies for quick access.
+  11. Packaging workflow data as artifacts like JARs in the build/libs directory. Put this directort in the .gitignore file. 
 
 ## Example gradle.yml file:
 ```
