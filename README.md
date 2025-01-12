@@ -145,8 +145,7 @@ Now you’re ready to start building projects with Gradle! Check out the [offici
 ---
 
 💡 **Have Questions or Need Help?**  
-Feel free to open an issue or contribute to this tutorial. Happy coding! 😄
-```
+Feel free to open an issue or contribute to this tutorial.
 
 ### Why this works:
 - **Concise**: The tutorial is straightforward and beginner-friendly.
