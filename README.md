@@ -152,3 +152,8 @@ Feel free to open an issue or contribute to this tutorial.
 - **Practical**: Focuses on hands-on usage.
 - **Styled**: Uses Markdown features like headers, tables, and code blocks for clarity.
 - **Extensible**: Can grow with links to more resources or advanced sections.
+
+## Gradle tutorial for complete beginners - Tom Gregory Tech
+[![Gradle tutorial for complete beginners - Tom Gregory Tech](https://img.youtube.com/vi/-dtcEMLNmn0/0.jpg)](https://www.youtube.com/watch?v=-dtcEMLNmn0)
+
+
